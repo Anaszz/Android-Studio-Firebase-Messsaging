@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyShop</string>
+    <string name="item_default_name">Sandwish de Gnou</string>
+    <string name="item_default_price">150€</string>
+    <string name="notification_channel_id">myCanal</string>
+    <string name="notification_channel_title">MyTitle</string>
+    <string name="notification_channel_desc">MyDescription</string>
+    <string name="bvn_txt">Shrek Corporation Unlimited t\'accueil à bras ouvert frérot.</string>
+
+</resources>

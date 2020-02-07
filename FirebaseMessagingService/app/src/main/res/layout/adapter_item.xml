@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    >
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:src="@drawable/kaaris" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="23dp"
+        >
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/item_default_name"
+            android:textSize="23dp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/item_default_price"
+            android:textSize="17dp"
+            android:layout_below="@+id/item_name"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
